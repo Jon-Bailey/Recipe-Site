@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#cardsSection {
+  background-color: rgb(39, 39, 39);
+}
+
+#signUp {
+    border-radius:10px;
+}
+
+.card {
+  stroke-width: 0px;
+  border-radius:10px;
+}
