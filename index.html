@@ -37,7 +37,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sign Up</a
+                <a class="nav-link" id="signupButton" href="#">Sign Up</a
                 >
               </li>
             </ul>
@@ -50,28 +50,28 @@
     <div class="container style="height:33vh" >
         <div class="row row-content">
             <div class="col-md-6">
-             <h1>Easy Recipes </br> For You</h1>
+             <h1>Easy Recipes </br> to discover!</h1>
              <p>Let us help you with new meal ideas.</p>
-             <button id="signUp" class="btn btn-warning px-4">Sign Up</button>
+             <button role="button" id="signupButton" class="btn btn-warning px-4">Sign Up</button>
         </div>
     </div>
     </section>
     <section name="cards">
-    <div class="container-fluid p-5" id="cardsSection">
+    <div class="container-fluid" id="cardsSection">
         <div class="row row-content">
-    <div class="card mx-auto my-3" style="width: 18rem;">
+    <div class="card mx-auto m-5" style="width: 18rem;">
         <img class="card-img-top" src="img/meal1.png" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
     </div>
-    <div class="card mx-auto mt-5" style="width: 18rem;">
+    <div class="card mx-auto m-5" style="width: 18rem;">
         <img class="card-img-top" src="img/meal2.jpg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
     </div>
-    <div class="card mx-auto mt-5" style="width: 18rem;">
+    <div class="card mx-auto m-5" style="width: 18rem;">
         <img class="card-img-top" src="img/meal3.jpg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -79,19 +79,19 @@
     </div>
 </div>
 <div class="row row-content ">
-  <div class="card mx-auto mt-5" style="width: 18rem;">
+  <div class="card mx-auto m-5" style="width: 18rem;">
       <img class="card-img-top" src="img/meal4.jpg" alt="Card image cap">
           <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
   </div>
-  <div class="card mx-auto mt-5" style="width: 18rem;">
+  <div class="card mx-auto m-5" style="width: 18rem;">
       <img class="card-img-top" src="img/meal1.png" alt="Card image cap">
           <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
   </div>
-  <div class="card mx-auto mt-5" style="width: 18rem;">
+  <div class="card mx-auto m-5" style="width: 18rem;">
       <img class="card-img-top" src="img/meal2.jpg" alt="Card image cap">
           <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -99,11 +99,106 @@
   </div>
 </div>
 </div>
+
+<div id="signupModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title">Sign Up</h3>
+              <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+              <div class="container-fluid">
+                  <form>
+                      <div class="form-row">
+                          <div class="form-group col-12">
+                              <label class="sr-only" for="loginEmail">Name</label>
+                              <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                          </div>
+                          <div class="form-group col-12">
+                              <label class="sr-only" for="loginPassword">Name</label>
+                              <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                          </div>
+                          <div class="col">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="checkbox">
+                                  <label class="form-check-label">Recieve Recipes?</label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                          <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 </section>
 
+<footer class="site-footer mt-3">
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col-6 col-sm-5 text-center mx-auto">
+        <h5>Links</h5>
+      <div class="row">
+        <ul class="list-unstyled mx-auto" style="display:flex;">
+          <li style="margin-right:10px;"><a href="index.html">Home</a></li>
+          <li style="margin-right:10px;"><a href="about.html">About</a></li>
+          <li style="margin-right:10px;"><a href="#">Sites</a></li>
+          <li style="margin-right:10px;"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+      
+      
+      <div class="col-6 col-sm-5 text-center mx-auto">
+        <h5>Social</h5>
+        <a
+          class="btn btn-social-icon btn-instagram"
+          href="http://instagram.com/"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a
+          class="btn btn-social-icon btn-facebook"
+          href="http://facebook.com/"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          class="btn btn-social-icon btn-twitter"
+          href="http://twitter.com/"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+          ><i class="fa fa-youtube"></i
+        ></a>
+      </div>
+    </div>
+
+      <div class="row mx-auto my-5">
+      <div class="col text-center">
+        <a role="button" class="btn btn-link" href="tel:+12065551234"
+          ><i class="fa fa-phone"></i> 1-206-555-1234</a>
+        <a
+          role="button"
+          class="btn btn-link"
+          href="mailto:campsites@nucamp.co"
+          ><i class="fa fa-envelope-o"></i> cookingisfun@cooking.com</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+
   </body>
 </html>
