@@ -1,18 +1,18 @@
 /* yellow color is #ffc107 */
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+#heroText h1 {
   font-weight: 700;
+  font-size: 2em;
 }
 
-p {
+#heroText p {
   font-weight: 300;
 }
+
 #cardsSection {
   background-color: rgb(39, 39, 39);
 }
@@ -40,4 +40,12 @@ h1 {
 .card {
   border-width: 3px;
   border-color: white;
+}
+
+footer {
+  background-color: #ffc107;
+}
+
+#hero .row {
+  padding-top: 10rem;
 }
