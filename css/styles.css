@@ -6,7 +6,6 @@ body {
 
 #heroText h1 {
   font-weight: 700;
-  font-size: 2em;
 }
 
 #heroText p {
@@ -46,6 +45,18 @@ footer {
   background-color: #ffc107;
 }
 
-#hero .row {
-  padding-top: 10rem;
+.navbar #signupButton {
+  color: #ffc107;
+}
+
+#hero {
+  height:66vh;
+}
+
+#heroText {
+
+}
+
+.heroContainer {
+  height:66vh;
 }
