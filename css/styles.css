@@ -16,6 +16,11 @@ body {
   background-color: rgb(39, 39, 39);
 }
 
+#cardsSection .row-content {
+  width:80vw;
+  margin:auto;
+}
+
 #signUp {
   border-radius: 10px;
 }
