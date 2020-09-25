@@ -17,8 +17,8 @@ body {
 }
 
 #cardsSection .row-content {
-  width:80vw;
-  margin:auto;
+  width: 80vw;
+  margin: auto;
 }
 
 #signUp {
@@ -31,6 +31,10 @@ body {
 }
 
 h1 {
+  font-weight: 700;
+}
+
+h2 {
   font-weight: 700;
 }
 
@@ -55,13 +59,16 @@ footer {
 }
 
 #hero {
-  height:66vh;
+  height: 66vh;
 }
 
 #heroText {
-
 }
 
 .heroContainer {
-  height:66vh;
+  height: 66vh;
+}
+
+.card h2 {
+  text-shadow: 2px 2px 6px black;
 }
