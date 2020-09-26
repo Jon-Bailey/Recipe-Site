@@ -74,6 +74,7 @@ footer {
   height: 66vh;
 }
 
+
 .card h2 {
   text-shadow: 2px 2px 6px black;
 }
@@ -86,20 +87,20 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
 #hero {
   height:33vh;
 }
 .heroContainer{
   height:33vh;
 }
+#heroArt {
+  display:none;
+}
 
 }
 
 @media only screen and (max-width: 375px) {
-
 #heroText{
   transform:scale(.75);
 }
-
 }
